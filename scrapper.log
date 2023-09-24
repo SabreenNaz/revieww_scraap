@@ -5386,3 +5386,65 @@ INFO:root:log my final result []
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.17:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 19:50:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 19:50:14] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 19:50:14] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 19:50:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'realme9i', 'Name': 'Shadakshara  Swamiji ', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Good camara quality,best battery performance'}, {'Product': 'realme9i', 'Name': 'A B Ashutosh', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Best Mobile under this price rangeLovely camera and best battery mobile'}, {'Product': 'realme9i', 'Name': 'KHALID Hussain', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Good camera for realme 9i'}, {'Product': 'realme9i', 'Name': 'BHARATH KUMAR EDARA', 'Rating': '4', 'CommentHead': 'Worth the money', 'Comment': 'Worth for price'}, {'Product': 'realme9i', 'Name': 'Bibek Mahato', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'Awesome 👍'}, {'Product': 'realme9i', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'V good'}, {'Product': 'realme9i', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Super...'}, {'Product': 'realme9i', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Atti sunder 👌🏻 pick.'}, {'Product': 'realme9i', 'Name': 'Adv Kapil Rajput', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'FeaturesGood Battery Life.Perfect for everyday performance.The performance of the primary camera is good.FlawsEasy marking on rear panel.Performance of secondary cameras is not satisfactory.No 5G connectivity.'}, {'Product': 'realme9i', 'Name': 'Joy Kundu ', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'Good picture quality, Battery back up is good of this Budget and Flipkart Delivery is awesome..'}, {'Product': 'realme9i', 'Name': 'Joy Kundu ', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Good picture quality, Battery back up is good of this Budget and Flipkart Delivery is awesome..'}]
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 19:50:25] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 19:50:25] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 19:50:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.17:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:05:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:05:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:05:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:05:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:05:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:05:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:05:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:05:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:05:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:05:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:05:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:05:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:05:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:05:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:05:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'poco', 'Name': 'Sumitra Behera', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Picture quality is very good 👍'}, {'Product': 'poco', 'Name': 'Faizan Ahmad ', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': 'Camera nicely see 😁🤗🤠'}, {'Product': 'poco', 'Name': 'Moin Khan', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Justify with the price Good mobile for basic usage display and back is average'}, {'Product': 'poco', 'Name': 'Shajahan Ahmed', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Super awesome 💯 just love ❤️ it thank you so much to the Flipkart'}, {'Product': 'poco', 'Name': 'NITIN YOGI', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Perfect condition'}, {'Product': 'poco', 'Name': 'Sonu  Kumar', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Very Good phone 📱'}, {'Product': 'poco', 'Name': 'PREM PRAKASH', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'For this price, the phone is good, not for gaming. But you use simple game'}, {'Product': 'poco', 'Name': 'Habiba Khatun', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Good'}, {'Product': 'poco', 'Name': 'APURBA SINGHA ROY', 'Rating': '5', 'CommentHead': 'Brilliant', 'Comment': "Good but Back buttons are left , you can't change in right side"}, {'Product': 'poco', 'Name': 'raj sahaji', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Good mobail'}, {'Product': 'poco', 'Name': 'raj sahaji', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Good mobail'}]
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:05:56] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:05:56] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:05:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'techno', 'Name': 'indrajitsinh popatbhai chavda', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': 'Good in the budget'}, {'Product': 'techno', 'Name': 'Sunil Kumar ', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'Thank'}, {'Product': 'techno', 'Name': 'Gauraw Sahu', 'Rating': '4', 'CommentHead': 'Wonderful', 'Comment': 'Very nice'}, {'Product': 'techno', 'Name': 'Ravi Kushwaha', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Ok'}, {'Product': 'techno', 'Name': 'GOUTAM SAMANTA', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Very good'}, {'Product': 'techno', 'Name': 'Flipkart Customer', 'Rating': '3', 'CommentHead': 'Does the job', 'Comment': 'Nice 👍🙂'}, {'Product': 'techno', 'Name': 'Flipkart Customer', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Nice 👍🙂'}]
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:06:16] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:06:16] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:06:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:11:45] "GET /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:11:58] "GET /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:11:58] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:11:58] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:11:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:13:00] "GET /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:13:00] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:13:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [24/Sep/2023 20:13:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
